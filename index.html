@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="./styles.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap">
     <title>بطاقتي التعريفية</title>
     <!--  قم بربط هذه الصفحة  مع css -->
     <!--  ربط google fonts -->
@@ -11,8 +11,8 @@
   <body>
     <nav>
       <div class="nav-elements">
-        <a href="#">هويّتي</a>
-        <a href="#">هواياتي</a>
+        <a href="#one">هويّتي</a>
+        <a href="#two">هواياتي</a>
       </div>
     </nav>
     <h1>مرحباً، أنا طالب في مسار الويب</h1>
@@ -25,13 +25,13 @@
       <img src="./img/kid.png" alt="person" />
 
       <!-------------------(البيانات)------------------>
-      <h1>اسمك</h1>
+      <h1 id="one">حسين أشكناني</h1>
       <h4>هواياتي المفضلة</h4>
 
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>مونتاج</li>
+        <li>تصميم</li>
+        <li>تصوير</li>
       </ul>
 
       <a href="https://code.kw/">
@@ -40,6 +40,12 @@
     </div>
     <!-------------------(الهوايات)------------------>
     <!-- قم بإضافة صور هواياتك هنا -->
-    <div class="hobbies"></div>
+   
+
+    <div class="hobbies" id="two">
+      <img src="./img/montage.jpg">
+      <img src="./img/desgin.jpg">
+      <img src="./img/photo.jpg"> 
+    </div>
   </body>
 </html>
